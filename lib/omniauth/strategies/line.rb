@@ -7,6 +7,7 @@ module OmniAuth
       option :name, 'line'
       option :scope, 'profile openid'
       option :bot_prompt, 'normal'
+      option :authorize_options, [:scope, :bot_prompt]
 
       option :client_options, {
         site: 'https://access.line.me',
